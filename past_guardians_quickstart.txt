@@ -1,0 +1,288 @@
+# PAST GUARDIANS - Quick Start Instructions
+## Step-by-Step Setup for Unity + Claude MCP
+
+---
+
+## STEP 1: CREATE UNITY PROJECT
+
+Open Unity Hub and create new project:
+- Name: PastGuardians
+- Template: 3D Mobile
+- Version: Unity 2022.3 LTS or Unity 6
+
+---
+
+## STEP 2: INSTALL PACKAGES
+
+Open Window > Package Manager and install:
+
+1. AR Foundation (5.x)
+2. ARCore XR Plugin
+3. ARKit XR Plugin  
+4. Netcode for GameObjects
+5. TextMeshPro (usually included)
+
+---
+
+## STEP 3: CREATE FOLDER STRUCTURE
+
+In Project window, create:
+
+```
+Assets/
+├── Scripts/
+│   ├── Core/
+│   ├── AR/
+│   ├── Gameplay/
+│   ├── Network/
+│   ├── UI/
+│   └── Data/
+├── Prefabs/
+│   ├── Intruders/
+│   ├── Effects/
+│   └── UI/
+├── Materials/
+├── Textures/
+├── Models/
+├── Audio/
+├── Scenes/
+├── ScriptableObjects/
+│   ├── IntruderData/
+│   └── GameConfig/
+└── Resources/
+```
+
+---
+
+## STEP 4: CONFIGURE PLAYER SETTINGS
+
+Edit > Project Settings > Player:
+
+Android:
+- Minimum API Level: 26
+- Target API Level: Automatic (highest)
+- Scripting Backend: IL2CPP
+- Target Architectures: ARM64
+
+iOS:
+- Target minimum iOS Version: 13.0
+- Architecture: ARM64
+
+---
+
+## STEP 5: CONFIGURE XR SETTINGS
+
+Edit > Project Settings > XR Plug-in Management:
+
+Android tab:
+- ✓ ARCore
+
+iOS tab:
+- ✓ ARKit
+
+---
+
+## STEP 6: START CODING WITH CLAUDE
+
+Open Claude (via MCP, Claude.ai, or Claude Code).
+
+Copy this initial prompt:
+
+```
+I'm building "Past Guardians" - a mobile AR game where players tap the sky to send time-displaced intruders back to their home planet.
+
+I have Unity 2022.3 LTS with AR Foundation installed.
+
+Please create IntruderData.cs - a ScriptableObject that defines intruder types with:
+- intruderId (string)
+- displayName (string)  
+- era (enum: Prehistoric, Mythological, HistoricalMachines, LostCivilizations, TimeAnomalies)
+- sizeClass (enum: Tiny, Small, Medium, Large, Boss)
+- baseTapsRequired (int, range 30-500)
+- stabilityRegenRate (float)
+- baseAltitude (float, 50-1000 meters)
+- tapWindowSeconds (float)
+- movementPattern (enum: Hover, Drift, Circle, Escape, Approach)
+- portalColor (Color)
+- codexDescription (string)
+
+Include [CreateAssetMenu] attribute and all enums.
+```
+
+---
+
+## STEP 7: BUILD ORDER CHECKLIST
+
+Follow this order for best results:
+
+### Phase A: Data (Day 1)
+- [ ] IntruderData.cs (ScriptableObject)
+- [ ] GameConfig.cs (ScriptableObject)
+- [ ] PlayerData.cs
+- [ ] PlayerDataManager.cs
+
+### Phase B: AR Foundation (Day 2-3)
+- [ ] ARSetupManager.cs
+- [ ] SkyCameraController.cs
+- [ ] LocationManager.cs
+
+### Phase C: Intruder System (Day 4-5)
+- [ ] Intruder.cs
+- [ ] IntruderSpawner.cs
+- [ ] IntruderScreenPositioner.cs
+
+### Phase D: Tap System (Day 6-7)
+- [ ] TapInputHandler.cs
+- [ ] TapProgressManager.cs
+
+### Phase E: Visuals (Day 8-10)
+- [ ] PlayerLaserRenderer.cs
+- [ ] TimePortalEffect.cs
+- [ ] ReturnAnimationController.cs
+
+### Phase F: UI (Day 11-12)
+- [ ] MainGameHUD.cs
+- [ ] CelebrationOverlay.cs
+
+### Phase G: Multiplayer Prep (Day 13-14)
+- [ ] GlobalLaserDisplay.cs
+- [ ] LocationLabelUI.cs
+- [ ] NetworkManager.cs (stubs)
+- [ ] MockServer.cs
+
+---
+
+## STEP 8: TESTING SCENE SETUP
+
+Create main scene with:
+
+1. AR Session Origin
+   - Add AR Camera (tag: MainCamera)
+   - Add AR Session component
+
+2. Game Manager (Empty GameObject)
+   - Attach: ARSetupManager
+   - Attach: LocationManager
+   - Attach: PlayerDataManager
+   - Attach: IntruderSpawner
+   - Attach: TapInputHandler
+
+3. UI Canvas (Screen Space - Overlay)
+   - MainGameHUD
+   - CelebrationOverlay
+
+4. Effects Container (Empty)
+   - For spawned lasers and portals
+
+---
+
+## STEP 9: CREATE TEST INTRUDERS
+
+In ScriptableObjects/IntruderData folder, create:
+
+1. Right-click > Create > Past Guardians > Intruder Data
+2. Name: "Pteranodon"
+3. Fill in:
+   - Era: Prehistoric
+   - Size: Small
+   - Taps Required: 50
+   - Altitude: 150
+   - Portal Color: Amber (#FFBF00)
+
+Repeat for 2-3 more test intruders.
+
+---
+
+## STEP 10: BUILD AND TEST
+
+1. File > Build Settings
+2. Add current scene
+3. Switch Platform to Android or iOS
+4. Build and Run on device
+
+Test checklist:
+- [ ] AR camera activates
+- [ ] GPS location detected
+- [ ] Looking up triggers sky mode
+- [ ] Test intruder appears
+- [ ] Taps register
+- [ ] Laser renders
+- [ ] Return animation plays
+
+---
+
+## CLAUDE PROMPTING TIPS
+
+### For each new script, include:
+1. Script name and purpose
+2. Which existing scripts it connects to
+3. Key methods needed
+4. Unity version
+
+### Example prompt template:
+```
+Using Unity 2022.3 LTS, create [SCRIPT_NAME].cs for Past Guardians.
+
+Purpose: [What it does]
+
+It needs to work with existing scripts:
+- [List related scripts]
+
+Required features:
+- [Feature 1]
+- [Feature 2]
+- [Feature 3]
+
+Please provide complete, production-ready code.
+```
+
+### After receiving code:
+1. Copy to Unity
+2. Fix any import errors
+3. Test the specific feature
+4. Move to next script
+
+---
+
+## REFERENCE FILES
+
+You have two detailed documents:
+
+1. **past_guardians_gdd.md** - Complete Game Design Document
+   - Game concept and lore
+   - All intruder types and stats
+   - Mechanics details
+   - Backend configuration specs
+
+2. **past_guardians_unity_mcp_guide.md** - Full Implementation Guide
+   - Detailed prompts for each script
+   - Code architecture
+   - Section-by-section build instructions
+
+Use these as reference when prompting Claude for implementation details.
+
+---
+
+## TROUBLESHOOTING
+
+**AR not working on device:**
+- Check XR Plug-in Management settings
+- Verify device supports ARCore/ARKit
+- Check camera permissions in Player Settings
+
+**Location not updating:**
+- Add location permission to Android manifest
+- iOS: Add location usage description in Player Settings
+
+**Touch not detecting:**
+- Use Input.touchCount for mobile
+- Add Input.GetMouseButton(0) for editor testing
+
+**Performance issues:**
+- Reduce max visible lasers
+- Use object pooling for effects
+- Check LOD settings on intruder models
+
+---
+
+Good luck building Past Guardians! 🛡️🌍⏰
