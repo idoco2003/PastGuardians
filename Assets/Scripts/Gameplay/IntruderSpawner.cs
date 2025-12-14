@@ -23,6 +23,7 @@ namespace PastGuardians.Gameplay
         [Header("Spawning")]
         [SerializeField] private bool autoSpawnEnabled = true;
         [SerializeField] private float spawnCheckInterval = 5f;
+        [SerializeField] private int minimumIntruders = 1; // Always keep at least this many
 
         [Header("Debug")]
         [SerializeField] private bool debugMode = false;
@@ -76,11 +77,17 @@ namespace PastGuardians.Gameplay
         {
             if (gameConfig == null) return;
             if (activeIntruders.Count >= gameConfig.globalIntruderCap) return;
-            if (LocationManager.Instance == null || !LocationManager.Instance.LocationAvailable) return;
+
+            // Always maintain minimum intruders even without GPS
+            bool needsMinimum = activeIntruders.Count < minimumIntruders;
+
+            if (!needsMinimum && (LocationManager.Instance == null || !LocationManager.Instance.LocationAvailable))
+                return;
 
             timeSinceLastSpawn += spawnCheckInterval;
 
-            if (timeSinceLastSpawn >= gameConfig.SpawnIntervalSeconds)
+            // Spawn immediately if below minimum, otherwise wait for interval
+            if (needsMinimum || timeSinceLastSpawn >= gameConfig.SpawnIntervalSeconds)
             {
                 timeSinceLastSpawn = 0f;
                 SpawnRandomIntruder();
