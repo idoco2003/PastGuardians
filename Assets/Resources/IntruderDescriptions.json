@@ -1,0 +1,247 @@
+{
+  "intruders": {
+    "prehistoric": [
+      {
+        "id": "pteranodon",
+        "name": "Pteranodon",
+        "shortDesc": "Ancient sky ruler with a crown of bone",
+        "fullDesc": "This magnificent flying reptile ruled the Cretaceous skies 85 million years ago. Its distinctive backward-pointing crest isn't just for show—scientists believe it acted like a rudder, helping it make impossibly sharp turns while hunting fish. Watch how it tilts its head, still searching for an ocean that existed before the continents we know today.",
+        "funFact": "Despite having a 20-foot wingspan, Pteranodons weighed only about 55 pounds—lighter than a golden retriever!",
+        "homeEra": "Late Cretaceous, 85 million years ago"
+      },
+      {
+        "id": "archaeopteryx",
+        "name": "Archaeopteryx",
+        "shortDesc": "The world's first feathered rebel",
+        "fullDesc": "Neither fully dinosaur nor truly bird, the Archaeopteryx is evolution caught in the act! This crow-sized creature has the teeth and claws of a raptor but wears a coat of iridescent feathers that would make any peacock jealous. It's confused about where—and when—it belongs, which is exactly why it keeps slipping through time rifts.",
+        "funFact": "Only 12 Archaeopteryx fossils have ever been found, making each one more valuable than diamonds!",
+        "homeEra": "Late Jurassic, 150 million years ago"
+      },
+      {
+        "id": "quetzalcoatlus",
+        "name": "Quetzalcoatlus",
+        "shortDesc": "A giraffe that learned to fly",
+        "fullDesc": "Named after the Aztec feathered serpent god, Quetzalcoatlus was the largest creature ever to take flight. Standing as tall as a giraffe when on the ground, it could soar for thousands of miles without flapping once. When its shadow passes over you, you understand why ancient civilizations saw gods in the sky.",
+        "funFact": "It could walk on all fours like a vampire bat and probably hunted baby dinosaurs on land!",
+        "homeEra": "Late Cretaceous, 68 million years ago"
+      },
+      {
+        "id": "mosasaurus",
+        "name": "Mosasaurus",
+        "shortDesc": "Ocean nightmare breaching through water-portals",
+        "fullDesc": "The terror of ancient seas doesn't belong in our sky—but here it is, bursting through a portal of churning prehistoric ocean water! This 50-foot marine lizard ruled the seas when T-Rex ruled the land. Its double-hinged jaw could swallow sharks whole. It seems just as surprised to see you as you are to see it.",
+        "funFact": "Mosasaurus had a second set of teeth in the roof of its mouth to prevent prey from escaping!",
+        "homeEra": "Late Cretaceous, 70 million years ago"
+      },
+      {
+        "id": "trex_peek",
+        "name": "T-Rex (Peeking)",
+        "shortDesc": "The king is curious about your timeline",
+        "fullDesc": "The most famous dinosaur of all time can't quite fit through the time rift—but that doesn't stop it from trying! Watch as the Tyrant Lizard King pokes its massive head through, nostrils flaring, tiny arms waving helplessly. Those enormous eyes aren't just for hunting—they're the most advanced of any land animal that ever lived. It sees you. It's fascinated.",
+        "funFact": "T-Rex had banana-sized teeth and a bite force strong enough to crush a car!",
+        "homeEra": "Late Cretaceous, 68 million years ago"
+      }
+    ],
+    "mythological": [
+      {
+        "id": "griffin",
+        "name": "Griffin",
+        "shortDesc": "Eagle's pride meets lion's courage",
+        "fullDesc": "With the head and wings of an eagle fused to the body of a lion, the Griffin represents the ultimate guardian. In Tempus Prime, they nest atop mountains made of pure gold, which they defend with legendary ferocity. This one seems lost, circling the sky as if searching for treasures that don't exist in our world yet.",
+        "funFact": "Ancient Greeks believed griffin feathers could restore sight to the blind!",
+        "homeEra": "The Mythic Age, when legends were real"
+      },
+      {
+        "id": "phoenix",
+        "name": "Phoenix",
+        "shortDesc": "Born from flame, again and again",
+        "fullDesc": "The Phoenix doesn't fear death—it IS death and rebirth in eternal dance. Each feather burns with the fire of a sunset, yet its flames give warmth without burning. This immortal firebird has lived through every apocalypse Tempus Prime has ever faced, only to rise from its own ashes each time, memories intact.",
+        "funFact": "Phoenix tears have healing powers, but good luck catching a creature made of fire!",
+        "homeEra": "Beyond time—it exists in all eras simultaneously"
+      },
+      {
+        "id": "pegasus",
+        "name": "Pegasus",
+        "shortDesc": "The horse that traded earth for sky",
+        "fullDesc": "Pure white and impossibly graceful, Pegasus moves through clouds like a fish through water. In Greek mythology, it sprang from Medusa's blood—beauty born from horror. Its wings shimmer with starlight even in daylight, and its hoofbeats sound like distant thunder. It doesn't understand why it can't find Mount Olympus.",
+        "funFact": "Every time Pegasus stamps its hoof, a new spring of inspiration appears!",
+        "homeEra": "Greek Mythic Age, time of heroes"
+      },
+      {
+        "id": "dragon_eastern",
+        "name": "Eastern Dragon",
+        "shortDesc": "Wisdom serpent of the eternal clouds",
+        "fullDesc": "Unlike its Western cousin, the Eastern Dragon breathes not fire but fortune. Its serpentine body undulates through clouds, each scale a different color of jade. With deer antlers, tiger paws, and carp whiskers, it's a chimera of the luckiest animals—no wonder it brings prosperity wherever it flies in Tempus Prime.",
+        "funFact": "Eastern dragons control weather and were believed to cause eclipses by swallowing the sun!",
+        "homeEra": "Imperial China, when emperors were dragons incarnate"
+      },
+      {
+        "id": "dragon_western",
+        "name": "Western Dragon",
+        "shortDesc": "Fire-forged guardian of impossible treasures",
+        "fullDesc": "Massive wings block out the sun as this legendary beast surveys your world. Smoke curls from nostrils the size of chimneys. But look past the flames and scales—those ancient eyes hold centuries of wisdom. In Tempus Prime, Western Dragons are scholars and kings, not monsters. This one is merely... concerned about its navigation.",
+        "funFact": "A dragon's fire is so hot it can melt stone, but they use it to forge, not destroy!",
+        "homeEra": "Medieval Mythic Age, time of knights and castles"
+      },
+      {
+        "id": "thunderbird",
+        "name": "Thunderbird",
+        "shortDesc": "Storm-bringer of the sacred skies",
+        "fullDesc": "Lightning crackles between its feathers. Thunder rolls with each wingbeat. The Thunderbird is the storm made flesh, revered by Indigenous peoples across the Americas. It creates weather simply by existing—rain follows where it flies, and hurricanes stir when it's angry. Right now, it's just... confused. And that's causing some unusual weather.",
+        "funFact": "Thunderbird's eyes are said to shoot lightning, and its nest sits in the clouds themselves!",
+        "homeEra": "The Spirit World, where nature has a voice"
+      },
+      {
+        "id": "roc",
+        "name": "Roc",
+        "shortDesc": "The bird that carries elephants like mice",
+        "fullDesc": "Sinbad the Sailor described a bird so massive it could lift elephants in its talons and feed them to its chicks. He wasn't exaggerating. The Roc's shadow covers entire neighborhoods. Its feathers are the size of ship sails. When it calls out, the sound echoes for miles. It's looking for the island where it nests—an island that sank millennia ago in our timeline.",
+        "funFact": "Marco Polo reported seeing the Roc, describing eggs 50 feet in circumference!",
+        "homeEra": "Arabian Nights, where stories come alive"
+      }
+    ],
+    "historical_machines": [
+      {
+        "id": "ornithopter",
+        "name": "Da Vinci Ornithopter",
+        "shortDesc": "Leonardo's dream finally takes flight",
+        "fullDesc": "In our timeline, Leonardo da Vinci's flying machine never left his notebooks. In Tempus Prime, he had different materials—living wood from trees that grew in all directions, silk from spiders the size of dogs. This ornithopter actually WORKS, its mechanical wings beating in perfect imitation of a bird. The pilot waves cheerfully—he's been flying since 1505.",
+        "funFact": "Da Vinci wrote his notes in mirror script so others couldn't steal his ideas!",
+        "homeEra": "Renaissance Prime, where invention has no limits"
+      },
+      {
+        "id": "airship",
+        "name": "Steampunk Airship",
+        "shortDesc": "Victorian engineering at its most ambitious",
+        "fullDesc": "Brass fittings gleam. Steam vents hiss. Propellers the size of windmills turn with clockwork precision. This impossible vessel represents an alternate Victorian age where steam technology reached its full potential. Its portholes glow with warm lamplight, and you can almost see passengers in top hats and corsets peering out, puzzled by the strange flat world below.",
+        "funFact": "The ship runs on 'aetheric coal'—a fuel source that doesn't exist in our timeline!",
+        "homeEra": "Victorian Prime, age of impossible steam"
+      },
+      {
+        "id": "clockwork_bird",
+        "name": "Clockwork Bird",
+        "shortDesc": "A song that never needs a singer",
+        "fullDesc": "Gears whir. Springs uncoil. This tiny mechanical marvel was crafted by master watchmakers who spent decades perfecting artificial life. Every feather is hammered copper, every movement calculated by microscopic cams. It still sings the tune its creator programmed—a lullaby for a child who grew old centuries ago.",
+        "funFact": "Each song plays 4,892 notes in exactly 3 minutes and 33 seconds, never varying!",
+        "homeEra": "Age of Clockwork, when mechanics approached magic"
+      },
+      {
+        "id": "war_balloon",
+        "name": "Ancient War Balloon",
+        "shortDesc": "Floating fortress of a forgotten general",
+        "fullDesc": "History says observation balloons were first used in the late 1700s. History is wrong. This silk giant bears symbols from an ancient empire that discovered hot air before it discovered writing. Signals flags flutter from its basket, trying to communicate with ground forces that became dust millennia ago. It floats on, following orders no one remembers giving.",
+        "funFact": "The balloon is powered by eternally burning 'phoenix feather' torches!",
+        "homeEra": "The Forgotten Empire, before recorded history"
+      },
+      {
+        "id": "tesla_drone",
+        "name": "Tesla Drone",
+        "shortDesc": "Nikola's flying spark of genius",
+        "fullDesc": "Electricity arcs between copper coils as this basketball-sized drone zips through the air. In our timeline, Tesla dreamed of wireless power. In Tempus Prime, he achieved it—and more. This autonomous scout runs on broadcast energy, never needs charging, and is desperately searching for Tesla's tower to download new instructions that will never come.",
+        "funFact": "The drone communicates in a language of electrical pulses that sounds like music!",
+        "homeEra": "Electropunk Era, when lightning was tamed"
+      },
+      {
+        "id": "icarus_wings",
+        "name": "Icarus Wings",
+        "shortDesc": "The boy who didn't fall",
+        "fullDesc": "In our myths, Icarus flew too close to the sun and plummeted to his death. In Tempus Prime, Daedalus used wax from bees that lived on the moon—wax that melts only in starfire. This young pilot soars confidently, not knowing his legend ends differently here. Help him find his way home before he flies too high in OUR sky.",
+        "funFact": "The wings are attached with threads spun from captured sunbeams!",
+        "homeEra": "Mythic Greece, where fathers saved their sons"
+      }
+    ],
+    "lost_civilizations": [
+      {
+        "id": "atlantean_craft",
+        "name": "Atlantean Hovercraft",
+        "shortDesc": "Technology from beneath the waves",
+        "fullDesc": "Atlantis didn't sink in Tempus Prime—it evolved. This silent craft hovers on currents of crystallized water vapor, powered by the same ocean energies that keep the great domed city hidden from surface dwellers. Its hull is grown from living coral, and bioluminescent patterns pulse across its surface in an ancient language no modern human can read.",
+        "funFact": "Atlantean craft can travel underwater and through air equally well!",
+        "homeEra": "Atlantean Golden Age, when the sea was home"
+      },
+      {
+        "id": "mayan_serpent",
+        "name": "Mayan Sky Serpent",
+        "shortDesc": "Kukulkan's stone guardian awakens",
+        "fullDesc": "Carved from living obsidian, this serpentine guardian was never meant to be a statue—it was sleeping. Mayan priests knew how to wake the stone serpents when needed, sending them soaring over pyramid-cities to deliver messages across the empire. Glowing glyphs along its body tell stories that would rewrite history books.",
+        "funFact": "Each glyph changes color based on the serpent's mood—green means curious!",
+        "homeEra": "Mayan Zenith, when stone learned to fly"
+      },
+      {
+        "id": "egyptian_disc",
+        "name": "Egyptian Sun Disc",
+        "shortDesc": "Ra's eye, watching from above",
+        "fullDesc": "The Egyptians didn't just worship the sun—they captured pieces of it. This spinning disc radiates genuine warmth, containing a fragment of Ra's eternal fire safely bound in enchanted gold. Hieroglyphics orbit its edge, projecting onto clouds like an ancient movie. The message? 'The sun rises in all timelines. Find your way home.'",
+        "funFact": "Looking directly at the disc shows you a glimpse of ancient Egypt!",
+        "homeEra": "Egyptian Divine Age, when gods walked among pharaohs"
+      },
+      {
+        "id": "lemuria_ship",
+        "name": "Lemurian Crystal Ship",
+        "shortDesc": "Light made solid, sailing the sky",
+        "fullDesc": "Before Atlantis, before everything, there was Lemuria—a civilization of pure thought. They built their vessels from crystallized consciousness, ships that responded to intention rather than controls. This prismatic craft refracts sunlight into rainbows, and if you listen closely, you can hear it humming a song older than language.",
+        "funFact": "The ship has no pilot—it IS the pilot, aware and confused about where 'when' it is!",
+        "homeEra": "Lemurian Dawn, before the first sunrise"
+      },
+      {
+        "id": "mu_temple",
+        "name": "Mu Temple Fragment",
+        "shortDesc": "A piece of heaven, lost in the sky",
+        "fullDesc": "The continent of Mu didn't sink—it ascended, rising so slowly over millennia that its people didn't notice until they were among the stars. This floating temple fragment broke off during the ascent, drifting between dimensions ever since. Golden bells still ring in its towers, calling worshippers who transcended matter long ago.",
+        "funFact": "Gravity works sideways inside the temple—you can walk on walls!",
+        "homeEra": "The Ascension of Mu, when a continent became a constellation"
+      }
+    ],
+    "time_anomalies": [
+      {
+        "id": "time_echo",
+        "name": "Time Echo",
+        "shortDesc": "A person who was, and was, and was",
+        "fullDesc": "This ghostly silhouette isn't a ghost at all—it's a temporal echo, the imprint of someone who passed through this exact spot in a different timeline. Watch closely and you'll see them performing the same action repeatedly: waving, walking, reaching for something. They can't see you. They don't know they're stuck. Help them loop back to where loops make sense.",
+        "funFact": "Time Echoes sometimes wave at things that won't exist for centuries!",
+        "homeEra": "The Probability Void, where all choices exist at once"
+      },
+      {
+        "id": "paradox_sphere",
+        "name": "Paradox Sphere",
+        "shortDesc": "A question that answers itself",
+        "fullDesc": "Look into the sphere and see yourself looking into the sphere. No, not a reflection—a dozen versions of you, from timelines where you made different choices. The sphere contains every possible outcome of every possible decision, spinning in impossible geometry. It's not dangerous, just... confusing. Even it doesn't know which timeline it belongs to.",
+        "funFact": "Touching the sphere shows you what your life would be if you'd been born one day later!",
+        "homeEra": "The Nexus Point, where all timelines intersect"
+      },
+      {
+        "id": "yesterdays_cloud",
+        "name": "Yesterday's Cloud",
+        "shortDesc": "Weather from a different when",
+        "fullDesc": "It's raining from a cloud that existed yesterday. The water drops take 24 hours to fall, arriving precisely when the cloud has already dissipated. People below get mysteriously wet and can't figure out why the sky is clear. This temporal meteorological anomaly is harmless but annoying—and very lost.",
+        "funFact": "The rain is always exactly the temperature it was when it left the cloud!",
+        "homeEra": "24 hours ago, permanently"
+      },
+      {
+        "id": "future_fragment",
+        "name": "Future Fragment",
+        "shortDesc": "Tomorrow's trash, today's mystery",
+        "fullDesc": "A chunk of reality from a future that hasn't happened yet—and might never happen, now that it's here. It glitches and pixelates because your eyes weren't designed to see materials that haven't been invented. Is that writing? Math? A warning? The fragment can't stabilize enough for anyone to know. Best to send it forward, where it belongs.",
+        "funFact": "Some fragments show buildings that won't be built for 1,000 years!",
+        "homeEra": "Multiple futures, collapsing into one"
+      },
+      {
+        "id": "epoch_rift",
+        "name": "Epoch Rift",
+        "shortDesc": "Time itself, torn asunder",
+        "fullDesc": "This isn't an intruder—it's a WOUND in time itself. Through its shimmering edges, you can see all eras at once: dinosaurs and spaceships, castles and caves, things that haven't been named yet. The rift is stable for now, but every moment it stays open, more timelines bleed through. This is why Guardians exist. This is the big one. Call everyone.",
+        "funFact": "Only global cooperation can seal an Epoch Rift—no single Guardian has ever succeeded alone!",
+        "homeEra": "ALL eras, simultaneously threatening to merge"
+      }
+    ]
+  },
+  "prompt_templates": {
+    "image_generation": {
+      "prehistoric": "{name}, a {shortDesc}, emerging from an amber-colored time portal in the sky. Fantasy AR game style, child-friendly, majestic and wonder-inspiring. Glowing temporal energy, blue sky background.",
+      "mythological": "{name}, a {shortDesc}, emerging from a purple mystical time portal. Magical fantasy style, child-friendly, mythological creature. Ethereal lighting, dramatic sky.",
+      "historical_machines": "{name}, a {shortDesc}, emerging from a bronze-tinted steampunk portal. Victorian fantasy aesthetic, brass and copper details, clockwork mechanisms visible. Warm lighting.",
+      "lost_civilizations": "{name}, a {shortDesc}, emerging from a teal glowing ancient portal. Crystalline technology, mysterious glyphs, otherworldly beauty. Ancient advanced civilization aesthetic.",
+      "time_anomalies": "{name}, a {shortDesc}, emerging from a prismatic glitching portal. Reality-bending visuals, multiple timelines visible, surreal and abstract. Cosmic colors."
+    }
+  }
+}
