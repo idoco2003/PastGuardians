@@ -5,7 +5,6 @@ using PastGuardians.AR;
 using PastGuardians.Gameplay;
 using PastGuardians.UI;
 using PastGuardians.Network;
-using PastGuardians.DevTools;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -367,9 +366,11 @@ namespace PastGuardians.Core
                 Debug.Log("[GameInitializer] Created NetworkManager");
             }
 
-            // Mock Server
-            var mockServer = managersObj.AddComponent<DevTools.MockServer>();
+            // Mock Server (only in development/editor)
+#if DEVELOPMENT_BUILD || UNITY_EDITOR
+            var mockServer = managersObj.AddComponent<PastGuardians.DevTools.MockServer>();
             Debug.Log("[GameInitializer] Created MockServer");
+#endif
         }
 
         /// <summary>
